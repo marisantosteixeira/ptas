@@ -8,12 +8,18 @@
     <title>Document</title>
 </head>
 <body>
-    <% pessoas.forEach((pessoa) => { %>
+
+    <div class="lista">LISTA DE PESSOAS CADASTRADAS</div>
+    <% pessoas.forEach((pessoa) => { %> 
+        <div class="dados">
         <%= pessoa.nome %>
         <%= pessoa.sobrenome %>
         <%= pessoa.idade %>
         <%= pessoa.id %>
-        <a href="/pessoas/deletar?id= <%= pessoa.id %>">Deletar</a><br>
+        <a href="/pessoas/deletar?id= <%= pessoa.id %>">Deletar</a>
+        <br>
+        </div>
+     
     <% }) %>
 </body>
 </html>
