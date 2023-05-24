@@ -7,22 +7,21 @@
     <link rel="stylesheet" href="/estilo.css">
 </head>
 <body>
+    <fieldset>
     <form method="post" action="/pessoas/criar">
       
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" />
+            <input type="text" placeholder="Insira seu nome" id="nome" name="nome" />
 
             <label for="sobrenome">sobrenome:</label>
-            <input type="text"  name="sobrenome" />
+            <input type="text" placeholder="Insira seu sobrenome"  name="sobrenome" />
 
             <label for="idade">idade:</label>
-            <input type="text" name="idade">
+            <input type="text" placeholder="Insira sua idade"  name="idade">
 
-            <label for="altu">altura:</label>
-            <input type="text" name="altura">
-
-            <input type="submit" value="Enviar">
+            <input type="submit" class="enviar" value="Enviar">
 
     </form>
+</fieldset>
 </body>
 </html>

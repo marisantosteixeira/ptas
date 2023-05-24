@@ -3,3 +3,31 @@ body{
     color: rgb(161, 244, 178);
     text-align:center;
 }
+
+fieldset{
+    border-radius: 10px;
+    color: white;
+    margin-top: 21%;
+    width: 50px;
+    margin-left: 40%;
+    margin-top: 10%;
+    padding: 65px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input{
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.enviar a{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.enviar:hover{
+    background-color: lightpink;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
